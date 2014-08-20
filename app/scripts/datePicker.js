@@ -34,7 +34,8 @@ Module.directive('datePicker', ['datePickerConfig', 'datePickerUtils', function 
     scope: {
       model: '=datePicker',
       after: '=?',
-      before: '=?'
+      before: '=?',
+      context: '=?'
     },
     link: function (scope, element, attrs) {
 
